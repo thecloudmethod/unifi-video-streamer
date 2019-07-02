@@ -1,0 +1,8 @@
+Alias /streams/ "c:/wamp/www/streams/" 
+
+<Directory "c:/wamp/www/streams/">
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride all
+        Order allow,deny
+    Allow from all
+</Directory>
